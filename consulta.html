@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/output.css">
+    <title>Repositorio | Consulta</title>
+</head>
+
+<body class="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]">
+        <nav class="pt-8 flex justify-evenly sticky top-0 z-50 hidden">
+            <a class="font-semibold text-2xl hover:bg-sky-500 p-2 hover:text-white rounded-lg underline decoration-6 decoration-sky-600" href="index.html">Aquí va la imagen</a>
+            <a class="font-semibold text-2xl hover:bg-sky-500 p-2 hover:text-white rounded-lg underline decoration-6 decoration-sky-600" href="">¿Cómo funciona?</a>
+            <a class="font-semibold text-2xl hover:bg-sky-500 p-2 hover:text-white rounded-lg underline decoration-6 decoration-sky-600" href="login.html">Iniciar sesión</a>
+         </nav>   
+        <div class="mx-auto max-w-screen-xl">
+            <main class="my-8 px-4 md:px-6">
+                <div class="mb-8">
+                    <h1 class="text-4xl font-bold text-center">Repositorio de <span class="underline decoration-sky-600">Trabajos Terminales</span></h1>
+                    <p class="text-gray-500 text-center">Explora nuestra biblioteca de Trabajos Terminales.</p>
+                </div>
+
+                <article class="my-8">
+                    <div class="border border-solid border-black rounded-lg text-white bg-cyan-700">
+                    <h2 class="font-bold text-2xl p-2 text-center">Búsqueda</h2>
+                    <section class="grid grid-cols-3 gap-8 p-2">
+                        <form class="flex flex-col ">
+                            <label for="titulo" class="font-semibold text-center">Titulo</label>
+                            <input type="text" placeholder="Buscar por titulo" class="border border-black rounded-md p-1">
+                        </form>
+                        <form class="flex flex-col">
+                            <label for="titulo" class="font-semibold text-center">Autor</label>
+                            <input type="text" placeholder="Buscar por autor" class="border border-black rounded-md p-1">
+                        </form>
+                        <form class="flex flex-col">
+                            <label for="titulo" class="font-semibold text-center">Director</label>
+                            <input type="text" placeholder="Buscar por director" class="border border-black rounded-md p-1">
+                        </form>
+                        <form class="flex flex-col mb-2">
+                            <label for="titulo" class="font-semibold text-center">Periodo</label>
+                            <input type="text" placeholder="Buscar por periodo. Ej. 23/1" class="border border-black rounded-md p-1">
+                        </form>
+                        <form class="flex flex-col mb-2">
+                            <label for="titulo" class="font-semibold text-center">Área</label>
+                            <input type="text" placeholder="Buscar por área de especialidad" class="border border-black rounded-md p-1">
+                        </form>
+                    </section>
+                    </div>
+
+                    <details class="border border-solid border-black rounded-lg text-white bg-cyan-700 mt-8 cursor-pointer">
+                        <summary class="font-bold text-2xl p-2 text-center">Búsqueda Avanzada</summary>
+                        <section class="p-2">
+                            <form class="flex flex-col">
+                                <label for="titulo" class="font-semibold text-center">Texto</label>
+                                <input type="text" placeholder="Ej. El framework de la web es Astro" class="border border-black rounded-md p-1">
+                            </form>
+                        </section>
+                    </details>
+                </article>
+
+                <div class="overflow-x-auto">
+                    <div class="relative w-full overflow-auto">
+                        <table class="mx-auto bg-[#f0f0f0] max-w-screen-xl mb-8">
+                            <thead class="bg-cyan-950 text-white">
+                                <tr>
+                                    <th class="px-4 py-2 text-center font-bold border border-black">Título</th>
+                                    <th class="px-4 py-2 text-center font-bold border border-black">Autores</th>
+                                    <th class="px-4 py-2 text-center font-bold border border-black">Director</th>
+                                    <th class="px-4 py-2 text-center font-bold border border-black">Descripción</th>
+                                    <th class="px-4 py-2 text-center font-bold border border-black">Periodo</th>
+                                    <th class="px-4 py-2 text-center font-bold border border-black">Documento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="px-4 py-2 border border-black">
+                                        <div class="flex flex-col">
+                                            <div class="text-lg">Introducción a React</div>
+                                            <div class="text-xs text-gray-600 text-end">Web</div>
+                                        </div>
+                                    </td>
+                                    <td class="px-4 py-2 border border-black">John Doe, Jane Smith</td>
+                                    <td class="px-4 py-2 border border-black">Nombre del Director</td>
+                                    <td class="px-4 py-2 border border-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit, ad recusandae impedit vel assumenda adipisci, cupiditate quia ipsam excepturi tempora aut accusamus odio tempore hic accusantium reprehenderit asperiores magnam.</td>
+                                    <td class="px-4 py-2 border border-black text-center">24/1</td>
+                                    <td class="px-4 py-2 border border-black text-center"><a href="#" class="text-sky-700 font-bold hover:underline decoration-sky-600">Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2 border border-black">
+                                        <div class="flex flex-col">
+                                            <div class="text-lg">Introducción a React</div>
+                                            <div class="text-xs text-gray-600 text-end">Web</div>
+                                        </div>
+                                    </td>
+                                    <td class="px-4 py-2 border border-black">John Doe, Jane Smith</td>
+                                    <td class="px-4 py-2 border border-black">Nombre del Director</td>
+                                    <td class="px-4 py-2 border border-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit, ad recusandae impedit vel assumenda adipisci, cupiditate quia ipsam excepturi tempora aut accusamus odio tempore hic accusantium reprehenderit asperiores magnam.</td>
+                                    <td class="px-4 py-2 border border-black text-center">24/1</td>
+                                    <td class="px-4 py-2 border border-black text-center"><a href="#" class="text-sky-700 font-bold hover:underline decoration-sky-600">Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2 border border-black">
+                                        <div class="flex flex-col">
+                                            <div class="text-lg">Introducción a React</div>
+                                            <div class="text-xs text-gray-600 text-end">Web</div>
+                                        </div>
+                                    </td>
+                                    <td class="px-4 py-2 border border-black">John Doe, Jane Smith</td>
+                                    <td class="px-4 py-2 border border-black">Nombre del Director</td>
+                                    <td class="px-4 py-2 border border-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit, ad recusandae impedit vel assumenda adipisci, cupiditate quia ipsam excepturi tempora aut accusamus odio tempore hic accusantium reprehenderit asperiores magnam.</td>
+                                    <td class="px-4 py-2 border border-black text-center">24/1</td>
+                                    <td class="px-4 py-2 border border-black text-center"><a href="#" class="text-sky-700 font-bold hover:underline decoration-sky-600">Ver</a></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-2 border border-black">
+                                        <div class="flex flex-col">
+                                            <div class="text-lg">Introducción a React</div>
+                                            <div class="text-xs text-gray-600 text-end">Web</div>
+                                        </div>
+                                    </td>
+                                    <td class="px-4 py-2 border border-black">John Doe, Jane Smith</td>
+                                    <td class="px-4 py-2 border border-black">Nombre del Director</td>
+                                    <td class="px-4 py-2 border border-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sit, ad recusandae impedit vel assumenda adipisci, cupiditate quia ipsam excepturi tempora aut accusamus odio tempore hic accusantium reprehenderit asperiores magnam.</td>
+                                    <td class="px-4 py-2 border border-black text-center">24/1</td>
+                                    <td class="px-4 py-2 border border-black text-center"><a href="#" class="text-sky-700 font-bold hover:underline decoration-sky-600">Ver</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </main>
+            
+        </div>
+</body>
+</html>
